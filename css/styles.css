@@ -38,7 +38,7 @@ ul {
 }
 
 .header-top {
-  background-image: url(file:///C:/Users/Daichi_S/Desktop/MyPortfolio/img/sky_00139.jpg);
+  background-image: url("../img/sky_00139.png");
   background-size: cover;
   height: 800px;
   margin: 0;
