@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+@media(max-width:1000px) {
+  body {
+    width: 100%;
+  }
+
+
+  .header-menu ul {
+    display: none;
+  }
+  .fas {
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .work {
+    text-align: center;
+  }
+
+  .works {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .contact,footer {
+    text-align: center;
+  }
+
+}
+
+@media(min-width:1000px) {
+.fas {
+  display: none !important;
+}
+.works {
+  display: flex;
+  > div {
+    width: 100%;
+    padding: 10px;
+  }
+}
+}
