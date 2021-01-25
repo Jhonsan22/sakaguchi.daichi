@@ -160,11 +160,16 @@ section:nth-of-type(odd) {
 
 .megane {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .megane img {
   height: 300px;
   width: 100%;
+}
+
+.paspol {
+  cursor: pointer;
 }
 
 .paspol img {
